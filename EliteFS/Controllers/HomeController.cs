@@ -16,14 +16,6 @@ namespace EliteFS.Controllers
 
         public ActionResult Index()
         {
-            var category = new Category()
-            {
-                CategoryName = "Shoe",
-            };
-            db.Categories.Add(category);
-            //var xxx = _categoryRepository.Items.FirstOrDefault(x => x.Id == 1);
-            //_categoryREepository.SaveChanges(); 
-            db.SaveChanges();
             return View();
         }
     }

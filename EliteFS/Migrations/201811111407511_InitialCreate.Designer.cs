@@ -13,7 +13,7 @@ namespace EliteFS.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201811111155384_InitialCreate"; }
+            get { return "201811111407511_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source
