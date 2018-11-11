@@ -47,10 +47,13 @@ E:\Projects\EliteFS\EliteFS\bin\roslyn\vbc.exe.config
 E:\Projects\EliteFS\EliteFS\bin\roslyn\vbc.rsp
 E:\Projects\EliteFS\EliteFS\bin\roslyn\VBCSCompiler.exe
 E:\Projects\EliteFS\EliteFS\bin\roslyn\VBCSCompiler.exe.config
+E:\Projects\EliteFS\EliteFS\bin\AutoMapper.dll
 E:\Projects\EliteFS\EliteFS\bin\EntityFramework.dll
 E:\Projects\EliteFS\EliteFS\bin\EntityFramework.SqlServer.dll
+E:\Projects\EliteFS\EliteFS\bin\KellermanSoftware.Compare-NET-Objects.dll
 E:\Projects\EliteFS\EliteFS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Projects\EliteFS\EliteFS\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\EliteFS\EliteFS\bin\Newtonsoft.Json.dll
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Common.dll
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Frameworks.dll
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Packaging.Core.dll
@@ -58,6 +61,8 @@ E:\Projects\EliteFS\EliteFS\bin\NuGet.Packaging.Core.Types.dll
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Packaging.dll
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Repositories.dll
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Versioning.dll
+E:\Projects\EliteFS\EliteFS\bin\nunit.framework.dll
+E:\Projects\EliteFS\EliteFS\bin\Repository.dll
 E:\Projects\EliteFS\EliteFS\bin\System.Web.Helpers.dll
 E:\Projects\EliteFS\EliteFS\bin\System.Web.Mvc.dll
 E:\Projects\EliteFS\EliteFS\bin\System.Web.Razor.dll
@@ -66,6 +71,8 @@ E:\Projects\EliteFS\EliteFS\bin\System.Web.Webpages.dll
 E:\Projects\EliteFS\EliteFS\bin\System.Web.Webpages.Razor.dll
 E:\Projects\EliteFS\EliteFS\bin\EntityFramework.xml
 E:\Projects\EliteFS\EliteFS\bin\EntityFramework.SqlServer.xml
+E:\Projects\EliteFS\EliteFS\bin\Newtonsoft.Json.pdb
+E:\Projects\EliteFS\EliteFS\bin\Newtonsoft.Json.xml
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Common.xml
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Frameworks.xml
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Packaging.xml
@@ -73,6 +80,7 @@ E:\Projects\EliteFS\EliteFS\bin\NuGet.Packaging.Core.xml
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Packaging.Core.Types.xml
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Repositories.xml
 E:\Projects\EliteFS\EliteFS\bin\NuGet.Versioning.xml
+E:\Projects\EliteFS\EliteFS\bin\nunit.framework.xml
 E:\Projects\EliteFS\EliteFS\bin\System.Web.Razor.xml
 E:\Projects\EliteFS\EliteFS\bin\System.Web.Webpages.xml
 E:\Projects\EliteFS\EliteFS\bin\System.Web.Webpages.Deployment.xml
@@ -84,15 +92,5 @@ E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.csproj.CoreCompileInputs.cache
 E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.csproj.CopyComplete
 E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.dll
 E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.pdb
-E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.csprojAssemblyReference.cache
-E:\Projects\EliteFS\EliteFS\bin\AutoMapper.dll
-E:\Projects\EliteFS\EliteFS\bin\KellermanSoftware.Compare-NET-Objects.dll
-E:\Projects\EliteFS\EliteFS\bin\Newtonsoft.Json.dll
-E:\Projects\EliteFS\EliteFS\bin\nunit.framework.dll
-E:\Projects\EliteFS\EliteFS\bin\Repository.dll
-E:\Projects\EliteFS\EliteFS\bin\Newtonsoft.Json.pdb
-E:\Projects\EliteFS\EliteFS\bin\Newtonsoft.Json.xml
-E:\Projects\EliteFS\EliteFS\bin\nunit.framework.xml
 E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.Migrations.InitialCreate.resources
 E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.csproj.GenerateResource.cache
-E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.Migrations.InitialCreate1.resources

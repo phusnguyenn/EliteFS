@@ -3,10 +3,27 @@ namespace EliteFS.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate1 : DbMigration
+    public partial class InitialCreate : DbMigration
     {
         public override void Up()
         {
+            CreateTable(
+                "dbo.Category",
+                c => new
+                    {
+                        Id = c.Long(nullable: false, identity: true),
+                        ParentId = c.Long(),
+                        CategoryName = c.String(),
+                        IsDeleted = c.Boolean(nullable: false),
+                        CreatorUserId = c.Long(),
+                        CreationTime = c.DateTime(nullable: false),
+                        DeleteUserId = c.Long(),
+                        DeletedTime = c.DateTime(),
+                    })
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Category", t => t.ParentId)
+                .Index(t => t.ParentId);
+            
             CreateTable(
                 "dbo.OrderDetail",
                 c => new
@@ -88,7 +105,7 @@ namespace EliteFS.Migrations
                         Password = c.String(),
                         FirstName = c.String(),
                         LastName = c.String(),
-                        Addredd = c.String(),
+                        Address = c.String(),
                         PhoneNumber = c.String(),
                         Email = c.String(),
                         Gender = c.Byte(nullable: false),
@@ -112,15 +129,18 @@ namespace EliteFS.Migrations
             DropForeignKey("dbo.OrderDetail", "ProductId", "dbo.Product");
             DropForeignKey("dbo.Product", "CategoryId", "dbo.Category");
             DropForeignKey("dbo.OrderDetail", "OrderID", "dbo.Order");
+            DropForeignKey("dbo.Category", "ParentId", "dbo.Category");
             DropIndex("dbo.User", new[] { "RoleId" });
             DropIndex("dbo.Product", new[] { "CategoryId" });
             DropIndex("dbo.OrderDetail", new[] { "ProductId" });
             DropIndex("dbo.OrderDetail", new[] { "OrderID" });
+            DropIndex("dbo.Category", new[] { "ParentId" });
             DropTable("dbo.User");
             DropTable("dbo.Role");
             DropTable("dbo.Product");
             DropTable("dbo.Order");
             DropTable("dbo.OrderDetail");
+            DropTable("dbo.Category");
         }
     }
 }
