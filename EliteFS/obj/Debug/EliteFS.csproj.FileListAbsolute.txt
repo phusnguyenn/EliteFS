@@ -94,3 +94,4 @@ E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.dll
 E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.pdb
 E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.Migrations.InitialCreate.resources
 E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.csproj.GenerateResource.cache
+E:\Projects\EliteFS\EliteFS\obj\Debug\EliteFS.csprojAssemblyReference.cache
